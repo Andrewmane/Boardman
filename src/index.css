@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Sansation';
+  src: url('./assets/fonts/Sansation-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Neue Montreal Bold';
+  src: url('./assets/fonts/NeueMontreal-Bold.otf') format('opentype');
+
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Montreal Light';
+  src: url('./assets/fonts/NeueMontreal-Light.otf') format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Montreal Medium';
+  src: url('./assets/fonts/NeueMontreal-Medium.otf') format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Montreal Regular';
+  src: url('./assets/fonts/NeueMontreal-Regular.otf') format('opentype');
+  font-style: normal;
+}
+
+.placeholder-small::placeholder {
+  font-size: 13px; /* Example size, adjust as needed */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  background-color:#171A23 ;
+}
+
+
+
+
+
+
